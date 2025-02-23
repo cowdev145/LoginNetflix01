@@ -1,0 +1,122 @@
+@charset "UTF-8";
+*{
+    padding: 0px;
+    margin: 0px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main{
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+    background-image: url('imagens/netflix02.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 1;
+    position: relative;
+   
+}
+header{
+   width: 100vw;
+   background-color: rgba(0, 0, 0, 0.5);   
+}
+#logo  {
+    position: absolute;
+    left: 16vw;
+    top: 30px;
+    z-index: 2;
+    height: 30px;
+    width: 300px;
+    padding: 30px;
+    background-image: url('imagens/netflix-logo-5.png');
+    background-size: 150px 40px;
+    background-repeat: no-repeat;
+       
+}
+.cad form h2{
+    font-size: 2em;
+    padding-bottom: 20px;
+    margin-left: 40px;
+}
+.cad{
+    max-width: 380px;
+    height: 650px;
+    background-color: rgba(3, 3, 3, 0.726);
+    padding: 30px;
+    border-radius: 5px;
+
+}
+.barrinha input{
+    margin: auto;
+    display: block;
+    background-color: rgba(44, 44, 44, 0.459);
+    width: 80%;
+    height: 40px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+.enviar input{
+    display: block;
+    margin: auto;
+    width: 80%;
+    height: 47px;
+    margin-top: 15px;
+    background-color: red;
+    border-radius: 7px;
+}
+.enviar p {
+    text-align: center;
+    padding: 20px;
+    color: rgb(54, 53, 53);
+}
+.enviar input:hover{
+    cursor: pointer;
+    background-color: rgb(235, 2, 2);
+}
+
+.codigo input{
+    height: 45px;
+    background-color: rgb(136, 135, 135);
+}
+.codigo input:hover{
+    background-color:rgb(116, 115, 115) ;
+}
+
+
+.link-s{
+    text-align: center;
+    padding: 20px;
+}
+.link-s a:hover{
+    color:rgb(153, 153, 153);
+}
+.checkbox{
+    margin-left: 40px;
+    margin-top: 30px;
+    & p{
+        margin-top: 20px;
+    }
+    & a{
+        color: rgb(14, 14, 240);
+    }
+    & a:hover{
+        color: rgb(22, 25, 201);
+    }
+    & input{
+        cursor: pointer;
+    }
+    & .medi a{
+        font-size: 13px;
+    }
+
+    & .pequeno {
+        margin-top: 17px;
+        font-size: 13px;
+       
+    }
+}
+
