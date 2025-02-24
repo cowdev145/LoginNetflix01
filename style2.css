@@ -1,0 +1,6 @@
+@media screen and (max-width:550px) {
+    .cad{
+        max-width: 300px;
+        height: 500px;
+    }
+}
